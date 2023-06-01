@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styleadmission.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+    
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="index.html">Volleyball</a></li>
+      <li><a href="footvolley.html">Footvolley</a></li>
+      <li><a href="admission.html">Admission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="haikyuu.html">Haikyuu</a></li>
+    </ul>
+  </nav>
+  <hr>
+    <h1>ADMISSION</h1>
+    
+    <form action="process_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="family_name">Family Name:</label>
+      <input type="text" id="family_name" name="family_name" required><br><br>
+
+
+        <label for="sex">Sex:</label>
+        <input type="text" id="sex" name="sex" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        
+        <input type="button" value="SUBMIT" onclick="Submit()" >
+        <script>
+          function Submit(){
+            alert("Thank You For Your Visit")
+          }
+        </script>
+
+    </form>
+</body>
+</html>

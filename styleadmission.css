@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:"volley-net.jpg";
+   color: black;
+   background-color: lightgoldenrodyellow;
+   text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+label {
+    
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+
+
+input[type="submit"] {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+   
+}
+button{
+    color: white;
+    background-color: black;
+}
+
+
+/************nav*********/
+nav ul li{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    
+  }

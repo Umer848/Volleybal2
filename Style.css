@@ -22,3 +22,11 @@ body{
     float: right;
     
   }
+  /************nav*********/
+  nav ul li{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    
+  }
+ 
